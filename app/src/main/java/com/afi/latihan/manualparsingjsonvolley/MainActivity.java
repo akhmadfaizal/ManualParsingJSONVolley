@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         pbLoading = findViewById(R.id.pb_loading);
 
-        // get data json from AsyncHttpClint
+        // get data json from Volley
         getUser();
     }
 
